@@ -2328,19 +2328,6 @@ html.theme-dark .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill_
     background: rgb(255, 255, 255) !important;
 }
 
-.container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .grabber_7sd5f5 {
-    width: var(--chillax-spotify-control-squid-width);
-    height: var(--chillax-spotify-control-squid-height);
-    background-color: transparent;
-    background-image: var(--chillax-spotify-control-squid-gif-url);
-    background-size: cover;
-    transform: rotate(90deg);
-    border-radius: 0;
-    margin-left: -24px;
-    position: absolute;
-    inset: -8px 0 0 0;
-    display: block !important;
-}
 
 .container_6sXIoE.withTimeline_824fT_ button {
     margin: 0 !important;
@@ -2371,135 +2358,6 @@ html.theme-dark .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill_
     overflow: hidden;
     z-index: -1;
 }
-
-#vc-spotify-player {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    height: 100px;
-    border-radius: calc(var(--radius-sm) - 1px) !important;
-    margin: 8px;
-    padding: 8px;
-    border-bottom-color: transparent;
-    --vc-spotify-green: var(--accentcolorV2);
-}
-
-html.theme-dark #vc-spotify-player {
-    background-color: #181a1d !important;
-}
-
-#vc-spotify-player::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: var(--vc-spotify-track-image);
-    background-size: cover;
-    background-position: center;
-    filter: blur(8px);
-    opacity: .6;
-    z-index: 0;
-}
-
-#vc-spotify-info-wrapper {
-    height: auto;
-}
-
-#vc-spotify-titles {
-    padding: 0;
-}
-
-#vc-spotify-song-title,
-.vc-spotify-artist,
-.vc-spotify-album {
-    color: #ffffff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-#vc-spotify-song-title {
-    font-size: 18px;
-    margin-bottom: 4px;
-}
-
-.vc-spotify-artist,
-.vc-spotify-album {
-    font-size: 14px;
-}
-
-#vc-spotify-progress-bar {
-    order: 2;
-    z-index: 1;
-}
-
-.vc-spotify-button {
-    --interactive-normal: #FFFFFF;
-    --interactive-hover: #FFFFFF;
-    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
-}
-
-.vc-spotify-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.vc-spotify-progress-time {
-    color: #ffffff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-#vc-spotify-album-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-#vc-spotify-info-wrapper {
-    position: static
-}
-
-#vc-spotify-titles > * {
-    z-index: 2;
-    max-width: 100%;
-    width: auto;
-}
-
-#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
-    position: relative;
-    aspect-ratio: 1/1;
-}
-
-#vc-spotify-album-expanded-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    aspect-ratio: 1/1;
-}
-
-#vc-spotify-album-expanded-wrapper > #vc-spotify-album-image {
-    opacity: 1;
-    z-index: 1;
-}
-
-#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
-    margin-top: auto;
-}
-
-.panels_c48ade {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-}
-
-#vc-spotify-player {
-    order: 1;
-}
-
 .panel__5dec7 {
     order: 2;
     background-color: transparent !important;
@@ -2829,10 +2687,6 @@ nav.guilds_c48ade {
     --memberlist-border-radius: 10px;
 
     --chillax-scroller-color: transparent;
-
-    --chillax-spotify-control-squid-gif-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif";
-    --chillax-spotify-control-squid-width: 25px;
-    --chillax-spotify-control-squid-height: 25px;
 
 }
 
