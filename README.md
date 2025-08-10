@@ -1,9 +1,9 @@
 # 💿 Discord Remastered — A Flow in Shadows
--
-*slightly edited by katzklaw*
----
+
 *Crafted in stillness, designed for the bold.  
 Where servers drift sideways, and the vibe flows like a lucid dream.*
+
+*slightly edited by katzklaw*
 
 ---
 
